@@ -15,7 +15,7 @@ export const LangSelector: React.FC = () => {
     >
       <option value="en">🇬🇧 English</option>
       <option value="cs">🇨🇿 Česky</option>
-      <option value="fr">🇫🇷 Français</option>
+      <option value="hi">hindi</option>
       <option value="de">🇩🇪 Deutsch</option>
     </select>
   );

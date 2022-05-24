@@ -16,9 +16,7 @@ function MyApp({ Component, pageProps, locales }: AppProps & { locales: any }) {
       wrapperMode="invisible"
       staticData={{
         en: () => import('../i18n/en.json'),
-        cs: () => import('../i18n/cs.json'),
-        de: () => import('../i18n/de.json'),
-        fr: () => import('../i18n/fr.json'),
+        hi: () => import('../i18n/hi.json'),
         ...locales,
       }}
       // remove this to enable language auto detection
